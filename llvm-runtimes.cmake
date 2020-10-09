@@ -1,6 +1,12 @@
 
- # NOTE: Set the following sysroot vars:
- # RPI4_CMAKE_SYSROOT
+# NOTE: Set the following vars:
+# RPI4_CMAKE_SYSROOT
+# LLVM_NATIVE_TOOLCHAIN
+# UCRTVersion
+# VCToolsVersion
+# WinSDKRoot
+# LVM_MONOREPO_CHECKOUT
+# APPLE_SWIFT_CHECKOUT
 
 set(target aarch64-unknown-linux-gnu)
 # Builtins:
